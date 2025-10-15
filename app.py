@@ -17,7 +17,7 @@ def hello_world_name(name):
 @app.route('/hello_world/long')
 def hello_world_long():
     # mock a long running task
-    time.sleep(60)
+    time.sleep(30)
     # return a response
     return {'message': 'Hello, World! Long running task done.'}
 
