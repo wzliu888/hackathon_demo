@@ -19,7 +19,7 @@ def hello_world_long():
     # mock a long running task
     time.sleep(60)
     # return a response
-    return {'message': 'Hello, World!'}
+    return {'message': 'Hello, World! Long running task done.'}
 
 @app.route('/hello', methods=['POST'])
 def hello():
