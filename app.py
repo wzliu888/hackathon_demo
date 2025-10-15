@@ -16,7 +16,7 @@ def hello_world_name(name):
 
 @app.route('/hello_world/long')
 def hello_world_long():
-    time.sleep(5)
+    time.sleep(60)
     return {'message': 'Hello, World!'}
 
 @app.route('/hello', methods=['POST'])
